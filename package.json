@@ -1,0 +1,32 @@
+{
+  "name": "func",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EkaterinaPloskonosova/func.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EkaterinaPloskonosova/func/issues"
+  },
+  "homepage": "https://github.com/EkaterinaPloskonosova/func#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
+    "eslint": "^8.27.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "jest": "^29.3.1"
+  },
+  "dependencies": {
+    "core-js": "^3.26.0"
+  }
+}
